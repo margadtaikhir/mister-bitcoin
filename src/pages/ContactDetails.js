@@ -27,7 +27,7 @@ export default class ContactDetails extends Component {
     onDelete = async _ => {
         const contactId = this.state.contact._id;
         await ContactService.deleteContact(contactId);
-        this.props.history.push('/');
+        this.props.history.push('/contacts');
     }
 
 
