@@ -21,7 +21,9 @@ export default class ContactsFilter extends Component {
 
     render() {
         return <section>
-            <input ref={this.filterInput} onChange={this.emitChange} />
+            <label for="filter-input"> Filter by: </label>
+            <input id="filter-input" ref={this.filterInput} onChange={this.emitChange} placeholder="name/phone/email"/>
+            
         </section>
     }
 }
