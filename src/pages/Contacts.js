@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 import ContactService from '../services/ContactService';
 
 import ContactList from '../cmps/ContactList.js';
-import ContactFilter from '../cmps/ContactFilter'
-
+import ContactFilter from '../cmps/ContactFilter';
 
 export default class Contacts extends Component {
     state = {
